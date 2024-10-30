@@ -1,9 +1,9 @@
 import React from 'react'
-import LandingPage from './pages/LandingPage'
+import TravelSearch from './pages/TravelSearch'
 
 function App() {
   return (
-   <LandingPage />
+   <TravelSearch />
   )
 }
 
