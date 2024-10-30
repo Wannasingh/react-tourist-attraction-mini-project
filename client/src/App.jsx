@@ -1,7 +1,10 @@
-import "./App.css";
+import React from 'react'
+import TravelSearch from './pages/TravelSearch'
 
 function App() {
-  return <div className="App">{/* Start coding here */}</div>;
+  return (
+   <TravelSearch />
+  )
 }
 
-export default App;
+export default App
