@@ -1,7 +1,10 @@
-import "./App.css";
+import React from 'react'
+import LandingPage from './pages/LandingPage'
 
 function App() {
-  return <div className="text-3xl font-bold underlinen">Test</div>;
+  return (
+   <LandingPage />
+  )
 }
 
-export default App;
+export default App
